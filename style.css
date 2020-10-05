@@ -1,0 +1,129 @@
+body {
+  background-image: url(blm.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px;
+}
+
+.navMenu, .title, .subTitle, .bottomLink, .sub, .budget, .extra, .vote, .howTo, .wallet, .links {
+  font-family: 'Teko', sans-serif;
+  display: flex;
+}
+
+
+.navMenu {
+  justify-content: space-around;
+  background-color: #6D7DA8;
+  color: #FFFBF2;
+  font-size: 2.5rem;
+  padding: 2.5vmin;
+}
+
+a, a:visited {
+  color: #F5EBD1;
+  text-decoration: none;
+}
+
+.title, .budget, .vote {
+  justify-content: center;
+  text-shadow: 5px 5px 10px #6D7DA8;
+  font-size: 5rem;
+  color: #F5EBD1;
+
+}
+
+.extra {
+  color: #A89C7E;
+  font-size: 1.5rem;
+  width: 100%;
+  justify-content: center;
+}
+
+.subTitle, .bottomLink {
+  justify-content: center;
+  color: #F5EBD1;
+  font-size: 2rem;
+}
+
+.bottomLink a {
+  text-decoration: underline;
+}
+
+.sec2, .lastQuote {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1rem;
+  color: #F5EBD1;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 2vmin;
+}
+
+
+.sec2 p {
+  background-color: #D0DAF5;
+  color: #000;
+  box-sizing: border-box;
+  width: 48%;
+  padding: 2vmin;
+}
+
+.lastQuote {
+  background-color: #6D7DA8;
+  color: #000;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 2vmin;
+}
+
+.imageCollection {
+  display: flex;
+}
+
+.imageBlock {
+  width: 100%;
+}
+
+.imageBlock img {
+  width: 98%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.sub {
+  display: center;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  color: #F5EBD1;
+  padding: 2vmin
+
+}
+
+.howTo {
+  justify-content: space-around;
+  padding: 2vmin;
+  text-decoration: underline;
+  font-size: 3rem;
+}
+
+.howTo, .links a:hover {
+  background-color: #111;
+}
+
+.wallet {
+  font-size: 2rem;
+  color: #D0DAF5;
+  justify-content: center;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  background-color: #6D7DA8;
+  font-size: 1.5rem;
+  padding: 1vmin;
+  border-radius: 3vmin;
+}
